@@ -1,0 +1,39 @@
+{
+    "name": "igniteit/robot-basicSensors",
+    "type": "arduino-project",
+	"version": "1.0",
+    "description": "",
+    "keywords": ["Arduino"],
+    "authors": [
+        {
+            "name": "Eduardo Sebastian Nola",
+            "email": "edunola13@hotmail.com",
+            "homepage": "http://www.edunola.com.ar/",
+            "role": "Designer,Developer"
+        }
+    ],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/edunola13/arduino-general-use"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/edunola13/arduino-sensors-oo"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/edunola13/arduino-actuators-oo"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/edunola13/arduino-basic-oo"
+		}
+	],
+    "require": {
+		"igniteit/arduino-general-use": "dev-master",
+        "igniteit/arduino-sensors-oo": "dev-master",
+		"igniteit/arduino-actuators-oo": "dev-master"
+    },
+	"minimum-stability": "dev"
+}
